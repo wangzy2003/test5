@@ -1,6 +1,6 @@
 def factorial(n):
     if n < 0:
-        return "负数没有阶乘"
+        return "wrong"
     elif n == 0 or n == 1:
         return 1
     else:
@@ -9,6 +9,5 @@ def factorial(n):
             result *= i
         return result
 
-# 示例调用
 num = 5
-print(f"{num} 的阶乘是: {factorial(num)}")
+print(f"{num} = {factorial(num)}")
